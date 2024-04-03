@@ -17,7 +17,7 @@ from datetime import date
 import pandas as pd
 import plotly.graph_objects as go
 
-df = pd.read_csv('/content/mydata2.csv')
+df = pd.read_csv('mydata2.csv')
 rad_columns = ["stability",	"rights",	"health",	"safety",	"climate",	"cost",	"popularity"]
 range = [0,10,20,30,40,50,60,70,80,90,100]
 
